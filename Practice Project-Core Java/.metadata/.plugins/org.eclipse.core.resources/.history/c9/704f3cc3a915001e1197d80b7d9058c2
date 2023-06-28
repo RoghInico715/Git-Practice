@@ -1,0 +1,12 @@
+package PracticeProjectAssistedPractice;
+
+public class accessSpecifiers1 extends accessSpecifiers{
+
+	public static void main(String[] args) {
+		
+		accessSpecifiers ac = new accessSpecifiers();
+		ac.defaultAccess();
+
+	}
+
+}
