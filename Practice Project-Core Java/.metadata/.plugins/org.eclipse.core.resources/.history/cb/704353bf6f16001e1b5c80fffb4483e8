@@ -1,0 +1,9 @@
+package typesOfInheritance;
+
+public class marks {
+
+	public marks() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

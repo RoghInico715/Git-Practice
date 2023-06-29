@@ -1,0 +1,9 @@
+package typesOfInheritance;
+
+public class subject {
+
+	public subject() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

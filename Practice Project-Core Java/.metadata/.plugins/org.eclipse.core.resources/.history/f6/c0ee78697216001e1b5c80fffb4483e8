@@ -1,0 +1,14 @@
+package typesOfInheritance;
+
+// 
+public class marks extends subject{
+	
+	private int mark = 85;
+	private String result = "Pass";
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
