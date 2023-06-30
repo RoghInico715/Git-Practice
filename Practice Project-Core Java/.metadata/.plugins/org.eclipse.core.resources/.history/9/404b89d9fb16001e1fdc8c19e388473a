@@ -1,0 +1,30 @@
+package collection;
+
+import java.util.ArrayList;
+
+public class arrayList {
+
+	public static void main(String[] args) {
+		
+		//Create ArrayList
+		ArrayList<String> subject = new ArrayList<>();
+		
+		//Storing elements into the ArrayList
+		subject.add("English");
+		subject.add("Mathematics");
+		subject.add("Biology");
+		subject.add("Chemistry");
+		subject.add("Physics");
+		
+		//Retrieving items from ArrayList
+		for (String t : subject) {
+			System.out.println(t);
+		}
+		
+		//Methods in ArrayList
+		//Size of ArrayList
+		
+
+	}
+
+}
