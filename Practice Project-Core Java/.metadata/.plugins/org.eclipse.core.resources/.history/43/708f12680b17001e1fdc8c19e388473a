@@ -1,0 +1,26 @@
+package _11_multipleCatchBlocks;
+
+import java.util.Scanner;
+
+public class division {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		//try block
+		try {
+			System.out.println("Enter a number : ");
+			int num1 = sc.nextInt();
+			System.out.println("Enter a another number : ");
+			int num2 = sc.nextInt();
+			System.out.println("Result of division = " + (num1/num2));
+		}
+		//catch block
+		catch (Exception e){
+			//Action to be taken in case an exception occurs
+			System.out.println("Please enter a Valid Input");
+		}
+	}
+
+}

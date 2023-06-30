@@ -1,0 +1,26 @@
+package collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class hashMap {
+
+	public static void main(String[] args) {
+		
+		//Creating HashMap
+		HashMap<String, Integer> td = new HashMap<>();
+		
+		//Adding elements into the HashMap
+		td.put("ram", 123456);
+		td.put("john", 234567);
+		td.put("sam", 345678);
+		td.put("james", 456789);
+		
+		//Retrieve the items of he HashMap
+		for (Map.Entry m: td.entrySet()) {
+			System.out.println(m.getKey() + " - " + m.getValue());
+		}
+
+	}
+
+}
