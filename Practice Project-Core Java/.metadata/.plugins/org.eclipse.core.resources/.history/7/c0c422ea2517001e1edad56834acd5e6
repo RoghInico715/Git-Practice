@@ -1,0 +1,25 @@
+package _10_tryWithParameter;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class tryWithParameter {
+
+	public static void main(String[] args) {
+		try(FileOutputStream fileOutputStream = new FileOutputStream("E:\\Mphasis\\phase 1\\2)core java\\Practice Project-Core Java\\coreJava\\src\\_10_tryWithParameter\\Output.txt")){
+			String msg = "Welcome to javaTpoint!";
+			//converting string into byte array  
+			byte byteArray[] = msg.getBytes();    
+			fileOutputStream.write(byteArray);  
+			System.out.println("Hello, Have a Nice Day...");      
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+
+	}
+
+}
