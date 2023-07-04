@@ -1,0 +1,10 @@
+git log
+
+git pull origin main
+
+git merge
+
+git pull --verbose
+
+git pull --rebase
+

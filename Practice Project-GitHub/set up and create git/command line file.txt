@@ -1,0 +1,84 @@
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo (master)
+$ git init newrespo/
+Initialized empty Git repository in C:/Users/roghi/respo/newrespo/.git/
+
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo (master)
+$ cd git
+bash: cd: git: No such file or directory
+
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo (master)
+$ cd newrespo
+
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo/newrespo (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/roghi/respo/newrespo/.git/
+
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo/newrespo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.js
+        helloworld.java
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo/newrespo (master)
+$ git add hello.js
+
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo/newrespo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        helloworld.java
+        index.html
+
+
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo/newrespo (master)
+$ git commit -m "First Commit"
+[master (root-commit) ea9a940] First Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello.js
+
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo/newrespo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        helloworld.java
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo/newrespo (master)
+$ rm hello.js
+
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo/newrespo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    hello.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        helloworld.java
+        index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+roghi@DESKTOP-I5F2NBJ MINGW64 ~/respo/newrespo (master)
+$
