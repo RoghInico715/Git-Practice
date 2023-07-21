@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-19T11:25:54 IST" name="Default suite" finished-at="2023-07-19T11:26:19 IST" duration-ms="25551">
+    <groups>
+    </groups>
+    <test started-at="2023-07-19T11:25:54 IST" name="Default test" finished-at="2023-07-19T11:26:19 IST" duration-ms="25551">
+      <class name="com.mphasis.jenkin_demo.verifyTitle">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.mphasis.jenkin_demo.verifyTitle@7ef82753]" started-at="2023-07-19T11:25:54 IST" name="launchApplication" finished-at="2023-07-19T11:26:18 IST" duration-ms="24711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="titleVerification()[pri:0, instance:com.mphasis.jenkin_demo.verifyTitle@7ef82753]" started-at="2023-07-19T11:26:19 IST" name="titleVerification" finished-at="2023-07-19T11:26:19 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mphasis.jenkin_demo.verifyTitle@7ef82753]" started-at="2023-07-19T11:26:19 IST" name="closeBrowser" finished-at="2023-07-19T11:26:19 IST" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mphasis.jenkin_demo.verifyTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

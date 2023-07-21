@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-19T17:54:39 IST" name="Suite" finished-at="2023-07-19T17:55:15 IST" duration-ms="36430">
+    <groups>
+      <group name="Luxury Cars">
+        <method signature="groupingDemo.Car1()[pri:0, instance:testScript.groupingDemo@2313052e]" name="Car1" class="testScript.groupingDemo"/>
+        <method signature="groupingDemo.Car2()[pri:0, instance:testScript.groupingDemo@2313052e]" name="Car2" class="testScript.groupingDemo"/>
+        <method signature="groupingDemo.Car3()[pri:0, instance:testScript.groupingDemo@2313052e]" name="Car3" class="testScript.groupingDemo"/>
+      </group> <!-- Luxury Cars -->
+      <group name="Car">
+        <method signature="groupingDemo.Car3()[pri:0, instance:testScript.groupingDemo@2313052e]" name="Car3" class="testScript.groupingDemo"/>
+        <method signature="groupingDemo.Car4()[pri:0, instance:testScript.groupingDemo@2313052e]" name="Car4" class="testScript.groupingDemo"/>
+        <method signature="groupingDemo.Car5()[pri:0, instance:testScript.groupingDemo@2313052e]" name="Car5" class="testScript.groupingDemo"/>
+      </group> <!-- Car -->
+    </groups>
+    <test started-at="2023-07-19T17:54:39 IST" name="Test" finished-at="2023-07-19T17:55:15 IST" duration-ms="36430">
+      <class name="testScript.verifyTitle">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testScript.verifyTitle@2bd2b28e]" started-at="2023-07-19T17:55:00 IST" name="launchApplication" finished-at="2023-07-19T17:55:07 IST" duration-ms="7409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="titleVerification()[pri:0, instance:testScript.verifyTitle@2bd2b28e]" started-at="2023-07-19T17:55:13 IST" name="titleVerification" finished-at="2023-07-19T17:55:13 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScript.verifyTitle@2bd2b28e]" started-at="2023-07-19T17:55:14 IST" name="closeBrowser" finished-at="2023-07-19T17:55:15 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.verifyTitle -->
+      <class name="testScript.explicitWait">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testScript.explicitWait@3382f8ae]" started-at="2023-07-19T17:54:39 IST" name="launchApplication" finished-at="2023-07-19T17:55:00 IST" duration-ms="21038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyText()[pri:0, instance:testScript.explicitWait@3382f8ae]" started-at="2023-07-19T17:55:07 IST" name="verifyText" finished-at="2023-07-19T17:55:13 IST" duration-ms="6188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScript.explicitWait@3382f8ae]" started-at="2023-07-19T17:55:13 IST" name="closeBrowser" finished-at="2023-07-19T17:55:14 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.explicitWait -->
+      <class name="testScript.groupingDemo">
+        <test-method signature="Car1()[pri:0, instance:testScript.groupingDemo@2313052e]" started-at="2023-07-19T17:55:13 IST" name="Car1" finished-at="2023-07-19T17:55:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car1 -->
+        <test-method signature="Car2()[pri:0, instance:testScript.groupingDemo@2313052e]" started-at="2023-07-19T17:55:13 IST" name="Car2" finished-at="2023-07-19T17:55:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car2 -->
+        <test-method signature="Car3()[pri:0, instance:testScript.groupingDemo@2313052e]" started-at="2023-07-19T17:55:13 IST" name="Car3" finished-at="2023-07-19T17:55:13 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car3 -->
+        <test-method signature="Car4()[pri:0, instance:testScript.groupingDemo@2313052e]" started-at="2023-07-19T17:55:13 IST" name="Car4" finished-at="2023-07-19T17:55:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car4 -->
+        <test-method signature="Car5()[pri:0, instance:testScript.groupingDemo@2313052e]" started-at="2023-07-19T17:55:13 IST" name="Car5" finished-at="2023-07-19T17:55:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car5 -->
+      </class> <!-- testScript.groupingDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
